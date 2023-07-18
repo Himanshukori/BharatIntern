@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Alegreya Sans' rel='stylesheet'>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <title>Portfolio Website</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Himanshu's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <a class="hover-2" href="Portfolio.html">
+                        <li>Home
+                    </a></li>
+                    <a class="hover-2" href="#about">
+                        <li>About Me
+                    </a></li>
+                    <a class="hover-2" href="#services">
+                        <li>Services
+                    </a></li>
+                    <a class="hover-2" href="/">
+                        <li>Contact Me
+                    </a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Home" class="firstSection">
+            <div class="leftSection">
+                Hello My name is <span class="purple">Himanshu</span>
+                <div>
+                    and I am a
+                    <div>
+                        <span id="element"></span>
+                    </div>
+                </div>
+                <br>
+                <button type="button">Download CV/Resume</button>
+            </div>
+            <div class="rightSection">
+                <img src="/Assets Portfolio/png6.png" alt="Image Not found">
+            </div>
+
+        </section>
+        <hr>
+        <section id="about">
+            <div class="secondSection">
+                <img src="/Assets Portfolio/about.png" alt="Image not found">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <h5>Developer <span>& Designer</span></h5>
+                    <p>I am a web developer,a Core Developer and a video Editor. I can provide clean code and pixel
+                        perfect design and Videos. I also make the website
+                        more & more interactive with web animations and Always make them interactive. If you're looking
+                        for a developer to add
+                        to your team, I'd love to hear from you!</p>
+                    <button type="button">Contact Me!</button>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section id="services">
+            <div class="sr">
+                <h2>OUR SERVICES</h2>
+                <table>
+                    <tr class="th1">
+                        <th>Web Development</th>
+                        <th>C/C++ Development</th>
+                        <th>Web Designing</th>
+                    </tr>
+                    <tr class="td2">
+                        <td>
+                            <p>A web developer's job is to create websites. While their primary role is to ensure the
+                                website is
+                                visually appealing and easy to navigate, many web developers are also responsible for
+                                the website's
+                                performance and capacity. Front-end web developers work on the visual part of the
+                                website—the pages
+                                visitors see and interact with (also known as the user interface). They design the
+                                physical layout of each
+                                page, integrate graphics, and use HTML and JavaScript to enhance the site.</p>
+                        </td>
+                        <td>
+                            <p>C/C++ dveloper's job is to often work on both desktop and mobile applications, as well as
+                                software that interacts with low-level system and hardware resources. Developers can use
+                                C++ to build native modules and applications for a number of platforms, such as Android
+                                using Android NDK. C++, being a difficult language to master, requires a developer to
+                                spend much time with it.</p>
+                        <td>
+                            <p>A web designer creates the layout and design of a website. In simple terms, a website
+                                designer makes a
+                                site look good. They use design programs to create visual elements. Website designers
+                                usually have
+                                expertise in UI, or user interface, which means they strategically design a site that's
+                                intuitive and easy
+                                for visitors to navigate. If your interest is piqued, let's dig into this career and see
+                                what it takes to
+                                become a successful web designer.</p>
+                        </td>
+                    </tr>
+                    <tr class="td1">
+                        <td><button type="button">Read More</button></td>
+                        <td><button type="button">Read More</button></td>
+                        <td><button type="button">Read More</button></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <div class="footer">
+                <div class="footer-first">
+                    <h3>Himanshu's Portfolio</h3>
+                </div>
+                <div class="footer-second">
+                    <ul>
+                        <li>Email: himanshukori947@gmail.com</li>
+                        <br>
+                        <li>Instagram:@himanshu_kori_</li>
+                        <br>
+                        <li>LinkedIn: Himanshu Kori</li>
+                        <br>
+                        <li>Contact: 8770480597</li>
+                    </ul>
+                </div>
+                <div class="footer-third">
+                    <img src="/Assets Portfolio/gmaillogo.png" alt="">
+                    <img src="/Assets Portfolio/Instalogo.jpeg" alt="">
+                    <img src="/Assets Portfolio/linkedinlogo.png" alt="">
+                    <img src="/Assets Portfolio/Phonelogo.png" alt="">
+                </div>
+            </div>
+            <div class="footer-rights">
+                Copyright &#169; himanshuportfolio.com | All Rights reserved
+            </div>
+
+
+        </footer>
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web developer.', 'C/C++ Developer.', 'Video Editor.'],
+            typeSpeed: 70,
+        });
+    </script>
+
+</body>
+
+</html>

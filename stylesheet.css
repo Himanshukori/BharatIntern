@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(4, 7, 53);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 90px;
+    background-color: rgb(0, 0, 87);
+    position: sticky;
+    top:0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.hover-2 {
+    background:
+        linear-gradient(#43c7c1a9 0 0) no-repeat calc(200% - var(--i, 0)*100%) 100% / 200% calc(100%*var(--i, 0) + .08em);
+    transition: .3s calc(var(--i, 0)*.3s), background-position .3s calc(.3s - calc(var(--i, 0)*.3s));
+}
+
+.hover-2:hover {
+    --i: 1;
+    font-size: 1.05rem;
+}
+
+.left {
+    font-size: 3rem;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.purple {
+    font-family: 'Ballo Bhai 2', cursive;
+    color: rgb(95, 20, 164);
+}
+
+#element {
+    color: rgb(95, 20, 164);
+    font-size: 3.02rem;
+}
+
+.right {
+    margin-top: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+main hr {
+    background: rgb(75, 75, 198);
+    border: 0;
+    height: 2px;
+    margin: 30px 30px 30px 30px;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+
+.firstSection>div {
+    width: 35%;
+}
+
+.leftSection {
+    font-size: 2rem;
+    font-family: 'Ballo Bhai 2', cursive;
+    margin: 35px 0px 70px 0px;
+}
+
+.rightSection {
+    font-family: 'Ballo Bhai 2', cursive;
+    width: 50%;
+}
+
+.rightSection img {
+    width: 60%;
+    margin-left: 70px;
+}
+
+#about {
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.about img {
+    height: auto;
+    width: 500px;
+
+}
+
+.about-text {
+    width: 550px;
+}
+
+.secondSection {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: rgb(181, 0, 0);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid darkred;
+    cursor: pointer;
+}
+
+#services {
+    width: 100%;
+    height:400px;
+    padding: 100px 0px;
+}
+
+.sr h2 {
+    color: white;
+    font-size: 60px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    min-height: 400px;
+}
+
+.sk {
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+table {
+    width: 100%;
+    /* height: 120vh; */
+    display: flex;
+    margin-top: 40px;
+}
+
+.td1 {
+    border-collapse: collapse;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-radius: 50px;
+}
+
+.sr {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.th1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 30px;
+    border: 0.5px solid transparent;
+    border-radius: 20px;
+}
+.td2 {
+    text-align: center;
+    color: #fcfc;
+    letter-spacing: 2px; 
+}
+
+footer{
+    background-color:#191c4e;
+
+}
+
+.footer{
+    display:flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer-first{
+    width:250px;
+}
+.footer-second{
+    width:250px;
+}
+
+.footer ul{
+    list-style: none;
+}
+
+footer .footer-rights
+{
+    text-align:center;
+    color:grey;
+    padding:15px 0;
+}
+
+.footer-third
+{
+    width:30px;
+}
+.footer-third img
+{
+    width: 100%;
+}
